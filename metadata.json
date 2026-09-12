@@ -1,6 +1,6 @@
 {
-  "name": "Toto Control",
-  "description": "Full mobile control, telematics dashboard, smart ignition, BMS battery telemetry, and operating system for commercial 3-wheeler electric Toto (E-Rickshaw)",
+  "name": "ToonStudio",
+  "description": "Script to Cartoon Animation Studio & Movie Generator with rich characters, cinematic scene creator, voiceover TTS, visual effects, and long episode playback.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

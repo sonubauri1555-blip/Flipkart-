@@ -22,7 +22,7 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Toto Control"
+rootProject.name = "ToonStudio"
 
 
 

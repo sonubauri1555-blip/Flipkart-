@@ -11,10 +11,8 @@
             <gradient
                 android:angle="315"
                 android:endColor="#0F172A"
-                android:startColor="#064E3B"
+                android:startColor="#1E1B4B"
                 android:type="linear" />
         </aapt:attr>
     </path>
 </vector>
-
-

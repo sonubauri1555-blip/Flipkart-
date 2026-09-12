@@ -11,14 +11,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.ui.Modifier
-import com.example.toto.ui.TotoMainScreen
-import com.example.toto.ui.TotoViewModel
-import com.example.ui.theme.CockpitBackground
+import com.example.toonstudio.ui.ToonStudioApp
+import com.example.toonstudio.ui.ToonStudioViewModel
 import com.example.ui.theme.MyApplicationTheme
+import com.example.ui.theme.StudioBackground
 
 class MainActivity : ComponentActivity() {
 
-    private val viewModel: TotoViewModel by viewModels()
+    private val viewModel: ToonStudioViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,11 +29,11 @@ class MainActivity : ComponentActivity() {
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
-                        .background(CockpitBackground)
+                        .background(StudioBackground)
                         .statusBarsPadding()
                         .navigationBarsPadding()
                 ) {
-                    TotoMainScreen(viewModel = viewModel)
+                    ToonStudioApp(viewModel = viewModel)
                 }
             }
         }
