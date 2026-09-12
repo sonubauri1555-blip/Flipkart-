@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Wheel 1: Front single wheel (3-wheeler Toto geometry) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M24,78 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M24,78 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+
+    <!-- Wheel 2 & 3: Rear heavy axle wheels -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M84,78 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M84,78 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+
+    <!-- Chassis & Underbody Platform -->
+    <path
+        android:fillColor="#064E3B"
+        android:pathData="M18,74 L90,74 L90,71 L18,71 Z" />
+
+    <!-- Heavy Toto Bodywork, Passenger Cabin Canopy and Front Windshield -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M26,71 L20,52 L36,32 L92,32 L92,71 L86,71 L86,42 L42,42 L32,60 L32,71 Z" />
+
+    <!-- Yellow / Gold Decorative Canopy Stripe & Roof Rail -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M34,30 L94,30 L94,34 L34,34 Z" />
+
+    <!-- Front Handlebar / Steering Fork of Toto -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M22,50 L27,72 L23,73 L18,51 Z" />
+
+    <!-- Passenger Open Window Frame -->
+    <path
+        android:fillColor="#022C22"
+        android:pathData="M46,45 L88,45 L88,65 L46,65 Z" />
+
+    <!-- Battery Compartment Indicator underneath Seats -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M48,68 L84,68 L84,72 L48,72 Z" />
+
+    <!-- Electric Bolt / EV Power Emblem on Toto Body -->
+    <path
+        android:fillColor="#FACC15"
+        android:pathData="M64,22 L55,38 L65,38 L58,54 L74,36 L64,36 Z" />
+</vector>

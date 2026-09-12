@@ -1,0 +1,8 @@
+{
+  "name": "Toto Control",
+  "description": "Full mobile control, telematics dashboard, smart ignition, BMS battery telemetry, and operating system for commercial 3-wheeler electric Toto (E-Rickshaw)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
+
